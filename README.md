@@ -9,9 +9,6 @@ This project implements a real-time object/people counter using the AT89S52 (805
 
 
 
-
-.
-
 🎯 Aim & Design Specification
 
 
@@ -43,6 +40,9 @@ Switches / Push buttons
 
 Breadboard + Jumper wires
 
+
+
+
 🧩 Working Principle
 
 
@@ -60,7 +60,12 @@ Multiplex both 7-segment displays
 
 Show stable count continuously
 
+
+
+
 🔌 Connection Summary
+
+
 Inputs
 Component	Pin	Function
 IR Sensor	P3.4	Active LOW detection
@@ -81,9 +86,14 @@ Place your final corrected code inside src/counter.asm.
 
 Add images from page 12 of the PDF to the /circuit/ folder. 
 
-mpmcproject[1][1] (1)
+
+
+
+
 
 🚀 Future Enhancements
+
+
 
 Up/Down counter
 

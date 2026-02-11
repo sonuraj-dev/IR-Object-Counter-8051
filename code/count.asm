@@ -4,7 +4,7 @@
 ; Units  -> Port 2
 ; Tens   -> Port 1
 ; Input  -> P3.4 (Active LOW)
-;====================================================
+
 
 ORG 0000H              ; Program starts at memory address 0000H
 
@@ -65,7 +65,7 @@ STOREL:
 
 ;----------------------------------------------------
 ; DISPLAY ROUTINE
-;----------------------------------------------------
+
 DISP:
     ; Display units on Port 2
     MOV A, COUNTL      ; Load units count
@@ -95,7 +95,7 @@ D2:
     DJNZ R1, D1        ; Outer delay loop
     RET                ; Return from delay subroutine
 
-;----------------------------------------------------
+
 ; SEVEN SEGMENT LOOKUP TABLE (Common Cathode)
 ;----------------------------------------------------
 SEGTAB:
